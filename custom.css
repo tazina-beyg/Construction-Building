@@ -340,7 +340,7 @@ body {
 
     font-size: 14px;
   }
-  .overlay-text {
+  /* .overlay-text {
     position: absolute;
     top: -1px;
     left: 115px;
@@ -349,7 +349,7 @@ body {
     padding: 5px 10px;
 
     font-size: 14px;
-  }
+  } */
   .price-box {
     background-color: white; /* White background */
     border: 1px solid #d3d3d3; /* Light grey border */
@@ -584,7 +584,7 @@ body {
     /* justify-content: center;  */
   }
   .footer {
-    padding: 32px 70px !important;
+    padding: 32px 70px;
   }
   .logo-box img {
     width: 90px;
@@ -682,6 +682,17 @@ body {
   border-radius: 50%;
   margin: 8px;
   transition: none;
+}
+
+.overlay-text {
+  position: absolute;
+  top: -1px;
+  left: 115px;
+  background: #ffe400;
+  color: black;
+  padding: 5px 10px;
+
+  font-size: 14px;
 }
 
 /* sectiontwo  */
@@ -920,17 +931,20 @@ section four */
 }
 
 /* Responsive Design */
-/* @media (max-width: 1024px) {
-  .content-wrapper {
-    flex-direction: column;
-    gap: 20px;
+@media (max-width: 2560px) {
+  .footer {
+    padding: 32px 20px;
   }
 
-  .logos-container,
-  .discount-box {
-    width: 100%;
+  .contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 186px; */
+    background: #e8e8ea;
+    padding: 50px;
   }
-} */
+}
 
 .partners-slider-section {
   display: flex;
@@ -1315,11 +1329,8 @@ section four */
   }
 
   .slider-group {
-    /* grid-template-columns: repeat(1, 1fr); */
-    grid-template-rows: repeat(2, 1fr);
-  }
-  .box-unit {
-    padding: 0px !important;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
   }
 
   .divider {
@@ -1443,17 +1454,6 @@ section four */
   }
 }
 
-/* sectionSix */
-.contact-section {
-  display: flex;
-  align-items: center; /* Centers items vertically */
-  justify-content: center; /* Centers everything horizontally */
-  gap: 50px; /* Adds spacing between elements */
-  background: #e8e8ea;
-  padding: 50px;
-  /* Ensures it takes full screen height */
-}
-
 .social-media {
   display: flex;
   flex-direction: column;
@@ -1462,7 +1462,7 @@ section four */
 }
 
 .social-title {
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
   color: #5a5a5a;
   margin-bottom: 10px;
@@ -1474,13 +1474,27 @@ section four */
   gap: 10px;
 }
 
+.icon {
+  width: 40px; /* Set fixed size for circles */
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Makes it a circle */
+  background-color: white; /* Light grey background */
+}
+
+.icon i {
+  font-size: 18px; /* Adjust icon size */
+  color: #cda999; /* Icon color */
+}
+
 .divider {
   width: 1px;
   height: 100px;
   background: #ccc;
 }
 
-.contact-info,
 .contact-extras {
   display: flex;
   flex-direction: column;
@@ -1499,6 +1513,22 @@ section four */
   color: #5a5a5a;
 }
 
+.contact-labelTwo {
+  font-size: 14px;
+  color: #5a5a5a;
+}
+.ctc-Two {
+  padding-left: 20px;
+}
+.contact-detailTwo {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+.contact-detailTwo a {
+  color: #1a1a1a;
+}
+
 .contact-detail {
   font-size: 16px;
   font-weight: bold;
@@ -1506,7 +1536,7 @@ section four */
 }
 
 .contact-detail a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: #1a1a1a;
 }
 
@@ -1516,7 +1546,7 @@ section four */
   justify-content: space-between; /* Space out elements */
   align-items: center;
   background: white;
-  padding: 32px 190px;
+  /* padding: 32px 70px; */
   font-size: 14px;
   color: #1a1a1a;
 }
