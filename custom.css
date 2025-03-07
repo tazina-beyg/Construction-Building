@@ -300,9 +300,6 @@ body {
 
     background-color: rgba(110, 109, 121, 0.8);
   }
-  .overlay-text {
-    left: 130px;
-  }
 
   .price-box {
     background-color: white;
@@ -504,9 +501,9 @@ body {
     background-color: #e8e8ea;
   }
 
-  .overlay-text {
+  /* .overlay-text {
     left: 155px;
-  }
+  } */
   .content-wrapper {
     margin-left: 130px;
   }
@@ -616,8 +613,8 @@ body {
   background: #ffe400;
   color: black;
   padding: 5px 10px;
-
-  left: 155px;
+  left: 50%; /* Move to the center */
+  transform: translateX(-50%); /* Adjust for centering */
 
   font-size: 14px;
 }
@@ -847,9 +844,9 @@ section four */
     padding: 50px;
   }
 
-  .overlay-text {
+  /* .overlay-text {
     left: 133px;
-  }
+  } */
 }
 
 .partners-slider-section {
@@ -1021,11 +1018,23 @@ section four */
     font-size: 15px;
   }
 
+  /* .carousel-controls {
+    bottom: 104px;
+    left: 6px;
+    bottom: 97px;
+    right: 258px;
+
+    
+  } */
+
   .carousel-controls {
     bottom: 104px;
     left: 6px;
     bottom: 97px;
-    right: 300px;
+    /* right: 300px; */
+    justify-content: center;
+    display: flex;
+    width: 130px;
   }
   .sectionTwo {
     margin-top: 10px;
@@ -1239,9 +1248,9 @@ section four */
     margin: 0px;
     padding-left: 4px;
   }
-  .overlay-text {
+  /* .overlay-text {
     left: 155px;
-  }
+  } */
   .text {
     font-size: 22px;
     font-weight: 700;
