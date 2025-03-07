@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ body {
 
 .sectionOne {
   position: relative;
-  background: url("/imgs/Background img.webp") no-repeat center center/cover;
+  background: url('/imgs/Background img.webp') no-repeat center center/cover;
 
   min-height: 100vh;
   display: flex;
@@ -211,7 +211,7 @@ body {
   justify-content: space-between; /* Ensures content spacing */
   min-height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("imgs/tractor-roller.avif");
+    url('imgs/tractor-roller.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -408,9 +408,6 @@ body {
     padding: 50px 50px 50px 0px;
 
     background-color: #e8e8ea;
-  }
-  .footer {
-    padding: 32px 130px;
   }
 }
 
@@ -782,21 +779,21 @@ position: absolute; */
 }
 
 .owl-carousel .owl-nav button.owl-next::before {
-  content: "\f061"; /*unicode for arrow-right*/
-  font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome */
+  content: '\f061'; /*unicode for arrow-right*/
+  font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
   font-weight: 900; /* Font weight for the solid style (fas) */
   margin-right: 5px;
 }
 
 .owl-carousel .owl-nav button.owl-prev::before {
-  content: "\f060"; /*unicode for arrow-left*/
-  font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome */
+  content: '\f060'; /*unicode for arrow-left*/
+  font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
   font-weight: 900; /* Font weight for the solid style (fas) */
   margin-right: 5px;
 }
 
-.owl-carousel .owl-nav .owl-next [aria-label="Next"],
-.owl-carousel .owl-nav .owl-prev [aria-label="Previous"] {
+.owl-carousel .owl-nav .owl-next [aria-label='Next'],
+.owl-carousel .owl-nav .owl-prev [aria-label='Previous'] {
   visibility: hidden; /*The Span element*/
 }
 
@@ -1127,10 +1124,11 @@ section four */
   }
 
   .contact-section {
-    gap: 0px;
-    /* background: #e8e8ea; */
-    padding: 13px;
-    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    background: #e8e8ea;
+    padding: 20px;
   }
 
   .text {
@@ -1344,77 +1342,6 @@ section four */
   .divider {
     display: none;
   }
-  .footer {
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align content to the start (left) */
-    text-align: left; /* Ensure text stays left-aligned */
-    padding: 20px; /* Adjust padding for smaller screens */
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: flex-start; /* Keep items left-aligned */
-    width: 100%;
-  }
-
-  .copyright,
-  .support,
-  .back-to-top {
-    margin-bottom: 10px; /* Add space between items */
-    width: 100%;
-  }
-
-  .support a {
-    display: inline-block; /* Ensures the link is properly spaced */
-    margin-top: 5px;
-  }
-
-  .back-to-top {
-    margin-top: 10px;
-  }
-
-  .social-media {
-    /* display: none; Hide social media section */
-  }
-
-  .contact-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align text to the left */
-    gap: 15px; /* Add spacing between stacked items */
-  }
-
-  .contact-info,
-  .contact-extras {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .contact-item {
-    flex-direction: row; /* Keep icons with text */
-    align-items: center;
-    gap: 10px;
-  }
-
-  .divider {
-    display: none; /* Remove divider for better stacking */
-  }
-}
-
-.p-box {
-  /* background-color: white; */
-  margin-top: 5px;
-  border: 0.5px solid #d3d3d3;
-  color: grey; /* Grey text */
-  padding: 35px; /* Increased padding */
-  font-size: 18px; /* Slightly larger text */
-  font-weight: bold;
-  display: inline-block; /* Prevent full-width stretching */
-  border-radius: 0px; /* Optional rounded corners */
-  width: fit-content; /* Adjusts to content width */
-  text-align: center; /* Centers text inside */
 }
 
 .order-btn {
