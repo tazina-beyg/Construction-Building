@@ -181,7 +181,6 @@ body {
 }
 
 .featured-product-card {
-
   border-radius: 0px;
   background-color: rgba(0, 0, 0, 0.9);
   display: flex;
@@ -306,27 +305,27 @@ body {
   }
 
   .price-box {
-    background-color: white; 
-    border: 1px solid #d3d3d3; 
-    padding: 10px 20px; 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    border-radius: 0px; 
+    border-radius: 0px;
   }
   .p-box {
-    background-color: white; 
+    background-color: white;
     margin-top: 5px;
-    border: 0.5px solid #d3d3d3; 
-    color: grey; 
+    border: 0.5px solid #d3d3d3;
+    color: grey;
     padding: 35px;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: bold;
-    display: inline-block; 
-    border-radius: 0px; 
-    width: fit-content; 
-    text-align: center; 
+    display: inline-block;
+    border-radius: 0px;
+    width: fit-content;
+    text-align: center;
   }
   .countdown {
     display: flex;
@@ -366,8 +365,6 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-
-
   .social-title {
     font-size: 9px;
   }
@@ -375,7 +372,7 @@ body {
   .container-fluid {
     display: flex !important
 ;
-  
+
     justify-content: space-around !important;
     gap: 40px !important;
     flex-wrap: nowrap !important;
@@ -398,13 +395,11 @@ body {
   }
   .navbar {
     top: 4%;
-
   }
 
   .contact-container {
     display: flex;
     align-items: center;
-
   }
 
   .order-btn {
@@ -412,7 +407,6 @@ body {
     font-size: 13px;
     border-radius: 25px;
   }
-
 
   .contact-container a {
     font-size: 14px;
@@ -422,7 +416,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px; 
+    gap: 10px;
     width: 100%;
   }
 
@@ -432,7 +426,6 @@ body {
     /* top: 45px; */
     right: 12px;
   }
-
 
   .menu-wrapper {
     position: fixed;
@@ -516,13 +509,11 @@ body {
   }
   .content-wrapper {
     margin-left: 130px;
-  
   }
 
   .countdown {
     display: flex;
     gap: 16px;
-
   }
   .footer {
     padding: 32px 70px;
@@ -560,8 +551,6 @@ body {
     min-width: 100%;
   }
 }
-
-
 
 .card-img-top {
   height: 75px;
@@ -628,8 +617,8 @@ body {
   color: black;
   padding: 5px 10px;
 
-    left: 155px;
-  
+  left: 155px;
+
   font-size: 14px;
 }
 
@@ -638,7 +627,6 @@ body {
 /* secthree */
 
 .sectionThree {
-
   background-color: #e8e8ea;
 }
 
@@ -708,16 +696,16 @@ i.fa-star {
 }
 
 .owl-carousel .owl-nav button.owl-next::before {
-  content: "\f061"; 
-  font-family: "Font Awesome 5 Free"; 
-  font-weight: 900; 
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   margin-right: 5px;
 }
 
 .owl-carousel .owl-nav button.owl-prev::before {
-  content: "\f060"; 
-  font-family: "Font Awesome 5 Free"; 
-  font-weight: 900; 
+  content: "\f060";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
   margin-right: 5px;
 }
 
@@ -725,7 +713,6 @@ i.fa-star {
 .owl-carousel .owl-nav .owl-prev [aria-label="Previous"] {
   visibility: hidden; /*The Span element*/
 }
-
 
 .owl-carousel .item {
   text-align: center;
@@ -752,11 +739,9 @@ i.fa-star {
   line-height: normal;
 }
 .paraOne {
-
   font-size: 22px;
   font-weight: 400;
   font-family: Montserrat, sans-serif;
-
 }
 .demo-box {
   background-color: #ffe400;
@@ -779,7 +764,6 @@ i.fa-star {
   object-fit: cover;
 }
 
-
 .example-text {
   font-size: 12px;
 }
@@ -790,13 +774,13 @@ i.fa-star {
 
 .price-label {
   font-size: 14px;
-  font-weight: normal; 
+  font-weight: normal;
   color: grey;
 }
 
 .price-value {
   font-size: 12px;
-  font-weight: 800; 
+  font-weight: 800;
 }
 
 .spacer {
@@ -811,7 +795,13 @@ i.fa-star {
   border-radius: 50px;
   font-size: 18px;
 }
-
+.callimg {
+  padding-left: 20px;
+  padding-right: 24px;
+}
+.calldiv {
+  padding-bottom: 20px;
+}
 /* 
 section four */
 
@@ -841,7 +831,6 @@ section four */
 .logos-container,
 .discount-box {
   flex: 1;
-  
 }
 
 /* Responsive Design */
@@ -861,8 +850,6 @@ section four */
   .overlay-text {
     left: 133px;
   }
-
-
 }
 
 .partners-slider-section {
@@ -978,7 +965,7 @@ section four */
 
 .time-box {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
 }
 
@@ -1000,7 +987,7 @@ section four */
   border: 2px solid #ffe400; /* Yellow border */
 }
 
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .sectionFour {
     padding: 50px 20px;
   }
@@ -1029,8 +1016,8 @@ section four */
 
   .heroHead {
     display: flex;
-    flex-direction: column; 
-    align-items: flex-start; 
+    flex-direction: column;
+    align-items: flex-start;
     font-size: 15px;
   }
 
@@ -1043,7 +1030,6 @@ section four */
   .sectionTwo {
     margin-top: 10px;
     padding: 22px;
-
   }
   .row {
     display: flex;
@@ -1082,7 +1068,7 @@ section four */
   .spn {
     font-size: 16px;
     text-decoration: line-through;
-    margin: 5px 0; 
+    margin: 5px 0;
     display: block;
   }
 
@@ -1107,7 +1093,7 @@ section four */
   .container-fluid {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     gap: 10px;
     padding-left: 15px;
   }
@@ -1218,7 +1204,6 @@ section four */
 
   .slider-group {
     grid-template-columns: repeat(1, 1fr);
-   
   }
 
   .divider {
@@ -1255,9 +1240,7 @@ section four */
     padding-left: 4px;
   }
   .overlay-text {
-  
-      left: 155px;
-    
+    left: 155px;
   }
   .text {
     font-size: 22px;
@@ -1296,15 +1279,14 @@ section four */
 }
 
 .P-card {
-  text-align: left; 
-  max-width: 700px; 
+  text-align: left;
+  max-width: 700px;
 }
 .partners-title {
   font-size: 36px;
   font-weight: 700;
   padding: 0px 0px 20px;
 }
-
 
 .partners-description {
   font-size: 14px;
@@ -1352,7 +1334,6 @@ section four */
   gap: 20px;
 }
 
-
 .toggle-btn {
   background-color: #ffe400;
   color: black;
@@ -1381,10 +1362,8 @@ section four */
 }
 
 .social-media {
-
   flex-direction: column;
   align-items: center;
-
 }
 
 .social-title {
@@ -1400,18 +1379,18 @@ section four */
 }
 
 .icon {
-  width: 40px; 
+  width: 40px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%; 
-  background-color: white; 
+  border-radius: 50%;
+  background-color: white;
 }
 
 .icon i {
-  font-size: 18px; 
-  color: #cda999; 
+  font-size: 18px;
+  color: #cda999;
 }
 
 .divider {
@@ -1463,14 +1442,13 @@ section four */
 }
 
 .contact-detail a {
- 
   color: #1a1a1a;
 }
 
 /* footer  */
 .footer {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   background: white;
   /* padding: 32px 70px; */

@@ -27,11 +27,11 @@
     <!-- Navbar -->
     <section class="sectionOne">
       <nav class="navbar">
-        <div class="container-fluid ">
+        <div class="container-fluid">
           <div class="logo-container">
-            <div class=" logo-text">
-            <img src="/imgs/LOGO.png " alt="Logo" class="imgOne" />
-           
+            <div class="logo-text">
+              <img src="./imgs/LOGO.png " alt="Logo" class="imgOne" />
+
               <span class="coloryellow">ВАШЕ</span>
               <span class="colorwhite"> НАЗВАНИЕ</span>
             </div>
@@ -40,16 +40,11 @@
           <div class="contact-container">
             <button class="order-btn">ОФОРМИТЬ ЗАКАЗ</button>
 
-            <img
-              src="/imgs/phone (1).png"
-              alt="Phone"
-            
-              class="ContactIMG"
-            />
+            <img src="./imgs/phone (1).png" alt="Phone" class="ContactIMG" />
             <!-- <a href="" class="text-white"
               ></a
             > -->
-          <span class="text-white">0 (123) 456-78-90</span>
+            <span class="text-white">0 (123) 456-78-90</span>
             <div
               class="menu-wrapper"
               data-bs-toggle="offcanvas"
@@ -68,9 +63,14 @@
           </div>
         </div>
 
-        <div class="offcanvas offcanvas-end " tabindex="-1" id="sidebar" style="z-index: 10000;">
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="sidebar"
+          style="z-index: 10000"
+        >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title">Menu</h5>
+            <!-- <h5 class="offcanvas-title">Menu</h5> -->
             <button
               type="button"
               class="btn-close"
@@ -79,80 +79,171 @@
             ></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="list-unstyled" id="mainAccordion"> <!-- Grouping all main accordions -->
-          
+            <ul class="list-unstyled" id="mainAccordion">
+              <!-- Grouping all main accordions -->
+
               <!-- Услуги (Services) -->
               <li>
-                <a class="d-flex justify-content-between text-dark d-block py-2" data-bs-toggle="collapse" href="#servicesAccordion" role="button">
+                <a
+                  class="d-flex justify-content-between text-dark d-block py-2"
+                  data-bs-toggle="collapse"
+                  href="#servicesAccordion"
+                  role="button"
+                >
                   Услуги <i class="fa-solid fa-arrow-down"></i>
                 </a>
-                <div class="collapse" id="servicesAccordion" data-bs-parent="#mainAccordion">
+                <div
+                  class="collapse"
+                  id="servicesAccordion"
+                  data-bs-parent="#mainAccordion"
+                >
                   <ul class="list-unstyled ms-3">
-                    <li><a href="#" class="text-dark d-block py-2">Демонтаж зданий</a></li>
-          
+                    <li>
+                      <a href="#" class="text-dark d-block py-2"
+                        >Демонтаж зданий</a
+                      >
+                    </li>
+
                     <!-- Дорожные работы (Road Works) -->
                     <li>
-                      <a class="d-flex justify-content-between text-dark d-block py-2" data-bs-toggle="collapse" href="#roadWorksAccordion" role="button">
+                      <a
+                        class="d-flex justify-content-between text-dark d-block py-2"
+                        data-bs-toggle="collapse"
+                        href="#roadWorksAccordion"
+                        role="button"
+                      >
                         Дорожные работы <i class="fa-solid fa-arrow-down"></i>
                       </a>
-                      <div class="collapse" id="roadWorksAccordion" data-bs-parent="#servicesAccordion">
+                      <div
+                        class="collapse"
+                        id="roadWorksAccordion"
+                        data-bs-parent="#servicesAccordion"
+                      >
                         <ul class="list-unstyled ms-3">
-                          <li><a href="#" class="text-dark d-block py-2">Подготовка основания</a></li>
-                          <li><a href="#" class="text-dark d-block py-2">Установка бордюров и поребриков</a></li>
-                          <li><a href="#" class="text-dark d-block py-2">Укладка асфальта</a></li>
-                          <li><a href="#" class="text-dark d-block py-2">Асфальтирование (от 5 000 тг за м2)</a></li>
+                          <li>
+                            <a href="#" class="text-dark d-block py-2"
+                              >Подготовка основания</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#" class="text-dark d-block py-2"
+                              >Установка бордюров и поребриков</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#" class="text-dark d-block py-2"
+                              >Укладка асфальта</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#" class="text-dark d-block py-2"
+                              >Асфальтирование (от 5 000 тг за м2)</a
+                            >
+                          </li>
                         </ul>
                       </div>
                     </li>
-          
+
                     <!-- Дополнительные услуги (Additional Services) -->
                     <li>
-                      <a class="d-flex justify-content-between text-dark d-block py-2" data-bs-toggle="collapse" href="#additionalServicesAccordion" role="button">
-                        Дополнительные услуги <i class="fa-solid fa-arrow-down"></i>
+                      <a
+                        class="d-flex justify-content-between text-dark d-block py-2"
+                        data-bs-toggle="collapse"
+                        href="#additionalServicesAccordion"
+                        role="button"
+                      >
+                        Дополнительные услуги
+                        <i class="fa-solid fa-arrow-down"></i>
                       </a>
-                      <div class="collapse" id="additionalServicesAccordion" data-bs-parent="#servicesAccordion">
+                      <div
+                        class="collapse"
+                        id="additionalServicesAccordion"
+                        data-bs-parent="#servicesAccordion"
+                      >
                         <ul class="list-unstyled ms-3">
-                          <li><a href="#" class="text-dark d-block py-2">Доставка асфальта</a></li>
-                          <li><a href="#" class="text-dark d-block py-2">Аренда спецтехники</a></li>
+                          <li>
+                            <a href="#" class="text-dark d-block py-2"
+                              >Доставка асфальта</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#" class="text-dark d-block py-2"
+                              >Аренда спецтехники</a
+                            >
+                          </li>
                         </ul>
                       </div>
                     </li>
-          
                   </ul>
                 </div>
               </li>
-          
+
               <!-- Доступная техника (Available Equipment) -->
               <li>
-                <a class="d-flex justify-content-between text-dark d-block py-2" data-bs-toggle="collapse" href="#availableEquipmentAccordion" role="button">
+                <a
+                  class="d-flex justify-content-between text-dark d-block py-2"
+                  data-bs-toggle="collapse"
+                  href="#availableEquipmentAccordion"
+                  role="button"
+                >
                   Доступная техника <i class="fa-solid fa-arrow-down"></i>
                 </a>
-                <div class="collapse" id="availableEquipmentAccordion" data-bs-parent="#mainAccordion">
+                <div
+                  class="collapse"
+                  id="availableEquipmentAccordion"
+                  data-bs-parent="#mainAccordion"
+                >
                   <ul class="list-unstyled ms-3">
-                    <li><a href="#" class="text-dark d-block py-2">Асфальтоукладчик</a></li>
-                    <li><a href="#" class="text-dark d-block py-2">Катки (5 и 8 тонн)</a></li>
-                    <li><a href="#" class="text-dark d-block py-2">Трактор 3 в 1</a></li>
-                    <li><a href="#" class="text-dark d-block py-2">Самосвалы (7 единиц)</a></li>
+                    <li>
+                      <a href="#" class="text-dark d-block py-2"
+                        >Асфальтоукладчик</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-dark d-block py-2"
+                        >Катки (5 и 8 тонн)</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-dark d-block py-2"
+                        >Трактор 3 в 1</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#" class="text-dark d-block py-2"
+                        >Самосвалы (7 единиц)</a
+                      >
+                    </li>
                   </ul>
                 </div>
               </li>
-          
+
               <!-- Регионы работы (Working Regions) -->
               <li>
-                <a class="d-flex justify-content-between text-dark d-block py-2" data-bs-toggle="collapse" href="#regionsAccordion" role="button">
+                <a
+                  class="d-flex justify-content-between text-dark d-block py-2"
+                  data-bs-toggle="collapse"
+                  href="#regionsAccordion"
+                  role="button"
+                >
                   Регионы работы <i class="fa-solid fa-arrow-down"></i>
                 </a>
-                <div class="collapse" id="regionsAccordion" data-bs-parent="#mainAccordion">
+                <div
+                  class="collapse"
+                  id="regionsAccordion"
+                  data-bs-parent="#mainAccordion"
+                >
                   <ul class="list-unstyled ms-3">
-                    <li><a href="#" class="text-dark d-block py-2">Алматы, Алматинская область</a></li>
+                    <li>
+                      <a href="#" class="text-dark d-block py-2"
+                        >Алматы, Алматинская область</a
+                      >
+                    </li>
                   </ul>
                 </div>
               </li>
-          
             </ul>
           </div>
-          
-            
         </div>
       </nav>
 
@@ -164,22 +255,24 @@
           >
             <div class="carousel-caption flex">
               <h1 class="text">
-                Обширный спектр <br /> используемой 
-                техники
+                Обширный спектр <br />
+                используемой техники
               </h1>
               <p class="heroHead">
                 Стоимость:
                 <span class="spn fs-3"><s>4 999₽ </s></span>
                 <span class="spnOne">2 999₽ за метр</span>
               </p>
-              <p class=" heroHead ">Имеется техника для любого вида строительства</p>
+              <p class="heroHead">
+                Имеется техника для любого вида строительства
+              </p>
             </div>
           </div>
           <div
             class="carousel-item"
             style="background-image: url('imgs/background\ img2.webp')"
           >
-            <div class="carousel-caption ">
+            <div class="carousel-caption">
               <h1 class="text">Другой заголовок</h1>
               <p class="heroHead">
                 Стоимость: <span class="spn fs-3"><s> 5 999₽ </s></span>
@@ -215,46 +308,67 @@
     <!-- Customer MODAL -->
     <div class="modal fade" id="customModal" tabindex="-1" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" ></button>
-              </div>
-              <div class="modal-body">
-                  <img src="../../imgs/customerCarewebp.webp" alt="Support Image">
-                  <h4 class="fw-bold mt-3">Оставьте заявку</h4>
-                  <p>и мы Вам перезвоним в удобное для Вас время</p>
-                  <input type="email" class="form-control mb-2" placeholder="E-mail">
-                  <input type="tel" class="form-control mb-2" placeholder="Телефон *">
-                  <div class="form-check">
-                      <input class="form-check-input" type="checkbox" id="terms">
-                      <label class="form-check-label" for="terms">
-                          Я согласен(а) с обработкой персональных данных
-                      </label>
-                  </div>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="request-btn" data-bs-dismiss="modal">Отправить</button>
-              </div>
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
+          <div class="modal-body">
+            <img src="../../imgs/customerCarewebp.webp" alt="Support Image" />
+            <h4 class="fw-bold mt-3">Оставьте заявку</h4>
+            <p>и мы Вам перезвоним в удобное для Вас время</p>
+            <input
+              type="email"
+              class="form-control mb-2"
+              placeholder="E-mail"
+            />
+            <input
+              type="tel"
+              class="form-control mb-2"
+              placeholder="Телефон *"
+            />
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="terms" />
+              <label class="form-check-label" for="terms">
+                Я согласен(а) с обработкой персональных данных
+              </label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="request-btn" data-bs-dismiss="modal">
+              Отправить
+            </button>
+          </div>
+        </div>
       </div>
-  </div>
-  <!-- section two -->
-    <section class="sectionTwo ">
-      <div class=" crds">
+    </div>
+    <!-- section two -->
+    <section class="sectionTwo">
+      <div class="crds">
         <!-- Added top margin -->
-        <div class="row ">
+        <div class="row">
           <!-- Featured Product (1 Card) -->
           <div class="col-lg-4 col-md-12">
             <div class="featured-product-card bg-dark opacity-30">
               <div class="featured-product-details">
-                <h3 class=" txt-head">Главная страница</h3>
-                <p class=" text-whiteTwo">
+                <h3 class="txt-head">Главная страница</h3>
+                <p class="text-whiteTwo">
                   Наша компания предлагает своим клиентам весь комплекс
                   инженерно-геодезических изысканий, топографических и
                   землеустроительных работ.
                 </p>
                 <div class="d-flex justify-content-center align-items-center">
-                  <a  class="btnOne" type="button" data-bs-toggle="modal" data-bs-target="#customModal">Оставить заявку</a>
+                  <a
+                    class="btnOne"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#customModal"
+                    >Оставить заявку</a
+                  >
                 </div>
               </div>
             </div>
@@ -262,10 +376,10 @@
 
           <!-- 4 Product Cards (2x2 Grid) -->
           <div class="col-lg-8 col-md-12 d-flex flex-column">
-            <div class="row row-cols-1 row-cols-sm-2 g-3  ">
+            <div class="row row-cols-1 row-cols-sm-2 g-3">
               <!-- Adjusts for responsiveness -->
               <div class="col">
-                <div class="card ">
+                <div class="card">
                   <img
                     src="imgs/tech-support.jpg"
                     class="card-img-top"
@@ -280,7 +394,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card ">
+                <div class="card">
                   <img
                     src="imgs/Sylvan-icon-trophy.png"
                     class="card-img-top"
@@ -289,13 +403,13 @@
                   <div class="card-bdy">
                     <h5 class="card-tle">Доводим до результата</h5>
                     <p class="card-txt">
-                      Все работы выполняются нашими  штатными специалистами
+                      Все работы выполняются нашими штатными специалистами
                     </p>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="card ">
+                <div class="card">
                   <img
                     src="imgs/vecteezy_research-vector-icon_14654373.jpg"
                     class="card-img-top"
@@ -310,7 +424,7 @@
                 </div>
               </div>
               <div class="col">
-                <div class="card ">
+                <div class="card">
                   <img
                     src="imgs/Sylvan-icon-web-increase-monoline.png"
                     class="card-img-top"
@@ -319,7 +433,7 @@
                   <div class="card-bdy">
                     <h5 class="card-tle">Профессионалы своего дела</h5>
                     <p class="card-txt">
-                      После того, как закончили свою работу,  остаемся с вами на
+                      После того, как закончили свою работу, остаемся с вами на
                       связи.
                     </p>
                   </div>
@@ -330,21 +444,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <section class="sectionThree justify-content-center ">
-                  <div class="head text-center ">
-
-                    <h1>Наши услуги</h1>
-                    <p>Мы готовы предложить  Вам более 150 различных услуг</p>
-                  </div>
-
-                  <div class="items">
-
-
-
-                  </div>
-
-  </section> -->
 
     <section class="sectionThree justify-content-center">
       <div class="head text-center">
@@ -371,22 +470,26 @@
                   <span class="price-label">ЦЕНА:</span>
                   <span class="price-value">3,000 ₽ per meter</span>
                 </p> -->
-                <p class="price-box"> 
+                <p class="price-box">
                   <span class="price-label">ЦЕНА:</span>
                   <span class="spacer"></span>
                   <span class="price-value">3,000 ₽ per meter</span>
                 </p>
-                
 
                 <div class="p-box">
                   <p class="example-text">
                     Пример наполнения. Информация об испытаниях
                   </p>
 
-                  <div
-                    class="d-flex justify-content-center align-items-center"
-                  >
-                    <button class="btnTwo" type="button" data-bs-toggle="modal" data-bs-target="#customModal">Оставить заявку</button>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button
+                      class="btnTwo"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#customModal"
+                    >
+                      Оставить заявку
+                    </button>
                   </div>
                 </div>
               </div>
@@ -415,10 +518,15 @@
                     Пример наполнения. Информация об испытаниях
                   </p>
 
-                  <div
-                    class="d-flex justify-content-center align-items-center"
-                  >
-                    <button class="btnTwo" type="button" data-bs-toggle="modal" data-bs-target="#customModal">Оставить заявку</button>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button
+                      class="btnTwo"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#customModal"
+                    >
+                      Оставить заявку
+                    </button>
                   </div>
                 </div>
               </div>
@@ -447,10 +555,15 @@
                     Пример наполнения. Информация об испытаниях
                   </p>
 
-                  <div
-                    class="d-flex justify-content-center align-items-center"
-                  >
-                    <button class="btnTwo" type="button" data-bs-toggle="modal" data-bs-target="#customModal">Оставить заявку</button>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button
+                      class="btnTwo"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#customModal"
+                    >
+                      Оставить заявку
+                    </button>
                   </div>
                 </div>
               </div>
@@ -480,10 +593,15 @@
                     Пример наполнения. Информация об испытаниях
                   </p>
 
-                  <div
-                    class="d-flex justify-content-center align-items-center"
-                  >
-                    <button class="btnTwo" type="button" data-bs-toggle="modal" data-bs-target="#customModal">Оставить заявку</button>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button
+                      class="btnTwo"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#customModal"
+                    >
+                      Оставить заявку
+                    </button>
                   </div>
                 </div>
               </div>
@@ -512,10 +630,15 @@
                     Пример наполнения. Информация об испытаниях
                   </p>
 
-                  <div
-                    class="d-flex justify-content-center align-items-center"
-                  >
-                    <button class="btnTwo" type="button" data-bs-toggle="modal" data-bs-target="#customModal">Оставить заявку</button>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button
+                      class="btnTwo"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#customModal"
+                    >
+                      Оставить заявку
+                    </button>
                   </div>
                 </div>
               </div>
@@ -544,45 +667,52 @@
                     Пример наполнения. Информация об испытаниях
                   </p>
 
-                  <div
-                    class="d-flex justify-content-center align-items-center"
-                  >
-                    <button class="btnTwo" type="button" data-bs-toggle="modal" data-bs-target="#customModal">Оставить заявку</button>
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button
+                      class="btnTwo"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#customModal"
+                    >
+                      Оставить заявку
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-        
         </div>
       </div>
     </section>
 
-  <!-- sectionfour  -->
+    <!-- sectionfour  -->
 
-    <section class="sectionFour ">
+    <section class="sectionFour">
       <div class="content-wrapper">
         <!-- Left Side: Logos & Discount Section -->
         <div class="logos-container">
           <h1 class="headthree">ЗАЯВЛЕНИЕ НА РАСЧЕТ СТОИМОСТИ РАБОТ</h1>
-          <p class="subtitle">Свяжитесь с нами любым удобным для Вас способом</p>
-          
+          <p class="subtitle">
+            Свяжитесь с нами любым удобным для Вас способом
+          </p>
+
           <div class="logos">
             <div class="logo-box">
-              <img src="imgs/call-removebg-preview.png" alt="Logo 1">
-              <p class="discount-text">СКИДКА 15% </p> <span class="Spn-Discount">Для постоянных клиентов</span>
+              <img src="imgs/call-removebg-preview.png" alt="Logo 1" />
+              <p class="discount-text">СКИДКА 15%</p>
+              <span class="Spn-Discount">Для постоянных клиентов</span>
             </div>
-            <div class="logo-box text-black ">
-              <img src="imgs/call2-removebg-preview.png" alt="Logo 2">
-              <p class="discount-text">100% </p> <span class="Spn-Discount">Мы завершаем работу вовремя</span>
+            <div class="logo-box text-black">
+              <img src="imgs/call2-removebg-preview.png" alt="Logo 2" />
+              <p class="discount-text">100%</p>
+              <span class="Spn-Discount">Мы завершаем работу вовремя</span>
             </div>
           </div>
         </div>
-    
+
         <!-- Right Side: Countdown Timer & Offer -->
         <div class="discount-box">
-          <p class="discount-offer">20%  скидка -  2,999₽!</p>
+          <p class="discount-offer">20% скидка - 2,999₽!</p>
           <p class="promo-text">Осталось времени до конца акции</p>
           <div class="cnt-down">
             <div class="countdown">
@@ -604,231 +734,242 @@
               </div>
             </div>
           </div>
-          
-          <button class="request-btn" type="button" data-bs-toggle="modal" data-bs-target="#customModal">Оставить заявку</button>
+
+          <button
+            class="request-btn"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#customModal"
+          >
+            Оставить заявку
+          </button>
         </div>
       </div>
     </section>
-    
 
-
-
-<section class="sectionFive">
-
-  
-
-  <section class="partners-slider-section">
-    <!-- Partners Information -->
-    <div class="partners-card">
-      <div class="P-card">
-        <h1 class="partners-title">Партнеры</h1>
-        <p class="partners-subtitle">С какими компаниями мы работаем?</p>
-        <p class="partners-description">
-          Наша компания предлагает своим клиентам полный спектр <br> инженерно-геодезических изысканий, топографических и <br> земельных работ, а также консультационные <br>услуги в области геодезии, картографии и землеустройства.<br> Результатом кадастровых работ является межевой план.
-  
-        </p>
-
-    </div>
-  </div>
-    <!-- Slider Section -->
-    <div class="slider-container">
-        <div class="slider-wrapper">
-            <!-- First Set of 4 Boxes -->
-            <div class="slider-group">
-                <div class="box-unit">
-                    <img src="imgs/par_2.webp" alt="Logo 1">
-                    <p>Project Alpha</p>
-                </div>
-                <div class="box-unit">
-                    <img src="imgs/comp.webp" alt="Logo 2">
-                    <p>Project Beta</p>
-                </div>
-                <div class="box-unit">
-                    <img src="imgs/par_3.webp" alt="Logo 3">
-                    <p>Project Gamma</p>
-                </div>
-                <div class="box-unit">
-                    <img src="imgs/part_1.webp" alt="Logo 4">
-                    <p>Project Delta</p>
-                </div>
-            </div>
-
-            <!-- Second Set of 4 Boxes -->
-            <div class="slider-group">
-                <div class="box-unit">
-                    <img src="imgs/part_4.webp" alt="Logo 5">
-                    <p>Project Epsilon</p>
-                </div>
-                <div class="box-unit">
-                    <img src="imgs/par_2.webp" alt="Logo 6">
-                    <p>Project Zeta</p>
-                </div>
-                <div class="box-unit">
-                    <img src="imgs/part_4.webp " alt="logo 7">
-                    <p>Project Eta</p>
-                </div>
-                <div class="box-unit">
-                    <img src="imgs/par_8.webp" alt="Logo 8">
-                    <p>Project Theta</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="slider-controls">
-            <button class="toggle-btn" onclick="previousSlide()"> <i class="fa-solid fa-less-than"></i></i></button>
-            <button class="toggle-btn" onclick="nextSlide()"><i class="fa-solid fa-greater-than"></i></button>
-        </div>
-    </div>
-
-
-</section>
-  <!-- call buttons -->
-  <div class="floating-buttons">
-    <a href="https://wa.me/+1234567890" class="whatsapp-btn" target="_blank">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
-    <a href="tel:+1234567890" class="call-btn">
-        <i class="fa-solid fa-phone"></i>
-    </a>
-</div>
-<!-- sectionSix -->
-
-
-  <section class="contact-section">
-    <div class="social-media">
-      <p class="social-title">WE ARE IN SOCIAL NETWORKS</p>
-      <div class="social-icons">
-        <span class="icon"><i class="fa-brands fa-vk" style="color: #cda999;"></i></span>
-        <span class="icon"><i class="fa-brands fa-instagram" style="color: #cda999;"></i></span>
-        <span class="icon"><i class="fa-brands fa-whatsapp" style="color: #cda999;"></i></span>
-      </div>
-    </div>
-  
-    <div class="divider"></div>
-  
-    <div class="contact-info">
-      <div class="contact-item">
-        <span class=""><img src=" /imgs/image-removebg-preview.png" alt=""></span>
-        <div>
-          <p class="contact-label">Call from 8:00 to 19:00</p>
-          <p class="contact-detail">+7 (000) 000-00-00</p>
-        </div>
-      </div>
-  
-      <div class="contact-item">
-        <span class=""><img src="imgs/image-removebg-preview (2).png" alt=""></span>
-        <div>
-          <p class="contact-label">We are waiting for you from 9:00 to 20:00</p>
-          <p class="contact-detail">
-            <strong>Moscow, Leninsky Prospekt, house, <br> building, office number</strong>
+    <section class="partners-slider-section">
+      <!-- Partners Information -->
+      <div class="partners-card">
+        <div class="P-card">
+          <h1 class="partners-title">Партнеры</h1>
+          <p class="partners-subtitle">С какими компаниями мы работаем?</p>
+          <p class="partners-description">
+            Наша компания предлагает своим клиентам полный спектр <br />
+            инженерно-геодезических изысканий, топографических и <br />
+            земельных работ, а также консультационные <br />услуги в области
+            геодезии, картографии и землеустройства.<br />
+            Результатом кадастровых работ является межевой план.
           </p>
         </div>
       </div>
-    </div>
-  
-    <div class="contact-extras">
-      <div class="contact-item">
-        <span class=""><img src="/imgs/image-removebg-preview (1).png" alt=""></span>
-        <div>
-          <p class="contact-label">Email:</p>
-          <p class="contact-detail"><a href="mailto:test@example.com">test@example.com</a></p>
+      <!-- Slider Section -->
+      <div class="slider-container">
+        <div class="slider-wrapper">
+          <!-- First Set of 4 Boxes -->
+          <div class="slider-group">
+            <div class="box-unit">
+              <img src="imgs/par_2.webp" alt="Logo 1" />
+              <p>Project Alpha</p>
+            </div>
+            <div class="box-unit">
+              <img src="imgs/comp.webp" alt="Logo 2" />
+              <p>Project Beta</p>
+            </div>
+            <div class="box-unit">
+              <img src="imgs/par_3.webp" alt="Logo 3" />
+              <p>Project Gamma</p>
+            </div>
+            <div class="box-unit">
+              <img src="imgs/part_1.webp" alt="Logo 4" />
+              <p>Project Delta</p>
+            </div>
+          </div>
+
+          <!-- Second Set of 4 Boxes -->
+          <div class="slider-group">
+            <div class="box-unit">
+              <img src="imgs/part_4.webp" alt="Logo 5" />
+              <p>Project Epsilon</p>
+            </div>
+            <div class="box-unit">
+              <img src="imgs/par_2.webp" alt="Logo 6" />
+              <p>Project Zeta</p>
+            </div>
+            <div class="box-unit">
+              <img src="imgs/part_4.webp " alt="logo 7" />
+              <p>Project Eta</p>
+            </div>
+            <div class="box-unit">
+              <img src="imgs/par_8.webp" alt="Logo 8" />
+              <p>Project Theta</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <button class="toggle-btn" onclick="previousSlide()">
+            <i class="fa-solid fa-less-than"></i>
+          </button>
+          <button class="toggle-btn" onclick="nextSlide()">
+            <i class="fa-solid fa-greater-than"></i>
+          </button>
         </div>
       </div>
-  
-      <div class="contact-item">
-        <div class="ctc-Two">
-          <p class="contact-labelTwo">For reference:</p>
-          <p class="contact-detailTwo"><a href="mailto:spravka@example.com">spravka@example.com</a></p>
+    </section>
+    <!-- call buttons -->
+    <div class="floating-buttons">
+      <a href="https://wa.me/+1234567890" class="whatsapp-btn" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      <a href="tel:+1234567890" class="call-btn">
+        <i class="fa-solid fa-phone"></i>
+      </a>
+    </div>
+    <!-- sectionSix -->
+
+    <section class="contact-section">
+      <div class="social-media">
+        <p class="social-title">WE ARE IN SOCIAL NETWORKS</p>
+        <div class="social-icons">
+          <span class="icon"
+            ><i class="fa-brands fa-vk" style="color: #cda999"></i
+          ></span>
+          <span class="icon"
+            ><i class="fa-brands fa-instagram" style="color: #cda999"></i
+          ></span>
+          <span class="icon"
+            ><i class="fa-brands fa-whatsapp" style="color: #cda999"></i
+          ></span>
         </div>
       </div>
-    </div>
-  </section>
-  
 
-<!-- footer  -->
-<footer class="footer">
-  <div class="footer-content">
-    <p class="copyright">Copyright © 2021 - 2025 <strong>Company name</strong></p>
-    <p class="support">
-      Support. <a href="#">Website development</a> in Megagroup.
-    </p>
-  </div>
-  <div class="back-to-top">
-    <a href="#" class="top-button"><i class="fa-solid fa-angle-up"></i></a>
-  </div>
-</footer>
+      <div class="divider"></div>
 
+      <div class="contact-info">
+        <div class="contact-item">
+          <span class="callimg"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="27"
+              viewBox="0 0 103.71 119.031"
+              data-prefix="iqyx8vsan"
+            >
+              <path
+                data-name="420.svg"
+                d="M99.13 30.102a4.38 4.38 0 1 0-6.11-.951 4.39 4.39 0 0 0 6.11.951zm-12.36 9.062a4.383 4.383 0 1 0-6.11-.951 4.39 4.39 0 0 0 6.11.952zm-12.36 9.067a4.383 4.383 0 1 0-6.12-.951 4.4 4.4 0 0 0 6.12.951zm20.46 57.945a1.6 1.6 0 0 0-.1-.289 3.046 3.046 0 0 0-.1-.292c-.04-.079-.09-.153-.13-.23a2.205 2.205 0 0 0-.19-.312.065.065 0 0 0-.02-.034 2.11 2.11 0 0 0-.18-.2 2.5 2.5 0 0 0-.18-.21L80.15 91.594a3.13 3.13 0 1 0-4.28 4.567l11.04 10.4c-5.95 4.022-11.09 6.211-14.7 6.211a10.28 10.28 0 0 1-4.76-1.141 1.6 1.6 0 0 0-.24-.142c-12.61-6.752-27.25-19.477-37.3-32.419l-1.03-1.333c-10.06-12.953-18.77-30.3-22.2-44.193a1.339 1.339 0 0 0-.05-.192 8.447 8.447 0 0 1-.05-4.689 39.384 39.384 0 0 1 7.37-11.867l8.33 13.511a3.124 3.124 0 1 0 5.31-3.294L17.28 10.284a3.347 3.347 0 0 0-.6-.693 1.3 1.3 0 0 0-.12-.142 3.119 3.119 0 0 0-4.42.047C6.58 15.196 2.73 20.922.7 26.528a14.385 14.385 0 0 0-.06 8.6c3.63 14.665 12.77 32.89 23.3 46.455l1.04 1.333c10.52 13.556 25.91 26.917 39.22 34.06a16.2 16.2 0 0 0 8.01 2.061c5.72 0 12.95-3.24 21.49-9.63.08-.063.15-.139.23-.209.06-.054.12-.1.18-.156.01-.01.01-.022.02-.032a2.2 2.2 0 0 0 .22-.291c.05-.07.11-.137.16-.21.05-.095.09-.2.14-.3a2.692 2.692 0 0 0 .12-.256c.03-.1.05-.2.08-.3s.05-.187.07-.284.01-.216.02-.325c0-.091.01-.18.01-.271 0-.111-.03-.222-.04-.333-.02-.093-.02-.182-.04-.269zm5.02-17.7c-3.31-4.137-14.49-13.568-17.35-15.9a8.094 8.094 0 0 0-6.2-2 9.483 9.483 0 0 0-6.17 3.862c-.91 1.151-2.53 3.165-3.1 3.834-3.76 4.423-6.38 2.95-8.14 1.831-4.54-3.725-9.19-9.347-13.54-14.892-.06-.079-.11-.153-.17-.222l-.03-.038q-.075-.1-.15-.193c-4.3-5.605-8.61-11.516-11.11-16.853-.66-1.974-1.46-4.867 3.75-7.448.09-.041.23-.1.41-.173a24.283 24.283 0 0 0 7.43-4.492 8.293 8.293 0 0 0 1.77-9.8 186.969 186.969 0 0 0-13.15-21.7C30.35-.952 24.78-.786 21.23 1.58l3.45 5.225c1.09-.729 2.75-1.119 4.4 1.163A184.338 184.338 0 0 1 41.67 28.73a2.019 2.019 0 0 1-.57 2.631 19.256 19.256 0 0 1-5.44 3.154c-.34.143-.59.253-.73.321-4.68 2.319-9.68 6.845-6.87 15.231a1.99 1.99 0 0 0 .13.321c2.76 5.97 7.39 12.327 11.98 18.307.03.032.05.063.08.093l.12.164c4.65 5.931 9.66 11.989 14.75 16.13.1.076.19.147.29.211 7.45 4.749 13.04 1.014 16.41-2.954.68-.8 2.48-3.036 3.24-3.991a.81.81 0 0 1 .08-.108 3.455 3.455 0 0 1 1.95-1.442 2.165 2.165 0 0 1 1.5.641c4.44 3.627 14.15 12.038 16.49 15.049a3.547 3.547 0 0 0 .26.3c2.99 2.98 2.06 4.765 1.76 5.352a3.136 3.136 0 0 0 1.32 4.228 3.075 3.075 0 0 0 1.44.357 3.108 3.108 0 0 0 2.77-1.681c1.01-1.944 2.74-7.004-2.74-12.578zM62.05 57.298a4.383 4.383 0 1 0-6.12-.951 4.4 4.4 0 0 0 6.12.941z"
+                fill-rule="evenodd"
+                class="path-iy5qtoy8c"
+              ></path>
+            </svg>
+            ></span
+          >
+          <div class="calldiv">
+            <p class="contact-label">Звоните с 8:00 до 19:00</p>
+            <p class="contact-detail">+7 (000) 000-00-00</p>
+          </div>
+        </div>
 
+        <div class="contact-item">
+          <span class=""
+            ><img src="imgs/image-removebg-preview (2).png" alt=""
+          /></span>
+          <div>
+            <p class="contact-label">Ждем Вас с 9:00 до 20:00</p>
+            <p class="contact-detail">
+              <strong
+                >г. Москва, Ленинский проспект, дом, <br />
+                строение, номер кабинета</strong
+              >
+            </p>
+          </div>
+        </div>
+      </div>
 
+      <div class="contact-extras">
+        <div class="contact-item">
+          <span class=""
+            ><img src="/imgs/image-removebg-preview (1).png" alt=""
+          /></span>
+          <div>
+            <p class="contact-label">Email:</p>
+            <p class="contact-detail">
+              <a href="mailto:test@example.com">test@example.com</a>
+            </p>
+          </div>
+        </div>
 
+        <div class="contact-item">
+          <div class="ctc-Two">
+            <p class="contact-labelTwo">Для справок:</p>
+            <p class="contact-detailTwo">
+              <a href="mailto:spravka@example.com">spravka@example.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="copyright">
+          Copyright © 2021 - 2025 <strong>Название компании</strong>
+        </p>
+        <p class="support">
+          Поддержка. <a href="#">Разработка сайтов</a> в Megagroup.
+        </p>
+      </div>
+      <div class="back-to-top">
+        <a href="#" class="top-button"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+    </footer>
 
+    <!-- jQuery and Owl Carousel Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!-- jQuery and Owl Carousel Scripts -->
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-      <!-- Owl Carousel Initialization -->
-      <script>
-        $(".owl-carousel").owlCarousel({
-          loop: true,
-          center: true,
-          items: 3,
-          margin: 0,
-          autoplay: true,
-          dots: true,
-          autoplayTimeout: 1500,
-          smartSpeed: 450,
-          responsive: {
-            0: {
-              items: 1,
-            },
-            768: {
-              items: 2,
-            },
-            1170: {
-              items: 3,
-            },
+    <!-- Owl Carousel Initialization -->
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        center: true,
+        items: 3,
+        margin: 0,
+        autoplay: true,
+        dots: true,
+        autoplayTimeout: 1500,
+        smartSpeed: 450,
+        responsive: {
+          0: {
+            items: 1,
           },
-        });
+          768: {
+            items: 2,
+          },
+          1170: {
+            items: 3,
+          },
+        },
+      });
 
+      let currentIndex = 0;
 
+      function nextSlide() {
+        currentIndex = (currentIndex + 1) % 2;
+        updateSlider();
+      }
 
-        let currentIndex = 0;
+      function previousSlide() {
+        currentIndex = (currentIndex - 1 + 2) % 2;
+        updateSlider();
+      }
 
-        function nextSlide() {
-            currentIndex = (currentIndex + 1) % 2; 
-            updateSlider();
-        }
-
-        function previousSlide() {
-            currentIndex = (currentIndex - 1 + 2) % 2; 
-            updateSlider();
-        }
-
-        function updateSlider() {
-            const wrapper = document.querySelector('.slider-wrapper');
-            wrapper.style.transform = `translateX(-${currentIndex * 100}%)`;
-        }
-   
-      </script>
-   
+      function updateSlider() {
+        const wrapper = document.querySelector(".slider-wrapper");
+        wrapper.style.transform = `translateX(-${currentIndex * 100}%)`;
+      }
+    </script>
   </body>
 </html>
