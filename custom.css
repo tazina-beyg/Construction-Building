@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ body {
 
 .sectionOne {
   position: relative;
-  background: url('/imgs/Background img.webp') no-repeat center center/cover;
+  background: url("/imgs/Background img.webp") no-repeat center center/cover;
 
   min-height: 100vh;
   display: flex;
@@ -39,7 +39,7 @@ body {
   font-size: 18px;
 }
 .order-btn:hover {
-  background: yellow;
+  background: #ffe400;
   color: black;
 }
 .coloryellow {
@@ -164,7 +164,7 @@ body {
   margin: 0px 20px 0px 20px;
 }
 .spnOne {
-  color: yellow;
+  color: #ffe400;
   font-weight: 600;
   font-size: 33px;
 }
@@ -211,7 +211,7 @@ body {
   justify-content: space-between; /* Ensures content spacing */
   min-height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('imgs/tractor-roller.avif');
+    url("imgs/tractor-roller.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -296,7 +296,7 @@ body {
   margin-bottom: 4rem;
 }
 .btnOne {
-  border: 2px solid yellow;
+  border: 2px solid #ffe400;
   background-color: #ffe400;
   /* background: transparent; */
   padding: 15px 50px;
@@ -307,7 +307,7 @@ body {
 }
 .btnOne:hover {
   background: transparent;
-  border: 2px solid yellow;
+  border: 2px solid #ffe400;
   color: white;
 }
 
@@ -414,9 +414,9 @@ body {
 @media screen and (max-width: 1024px) {
   /* Ensure everything stays in one row */
 
-
   .social-title {
-    font-size: 9px; }
+    font-size: 9px;
+  }
 
   .container-fluid {
     display: flex !important
@@ -638,7 +638,7 @@ body {
 }
 
 .btnOne {
-  border: 2px solid yellow;
+  border: 2px solid #ffe400;
   background-color: #ffe400;
   /* background: transparent; */
   padding: 13px 25px;
@@ -651,7 +651,7 @@ body {
 
 .btnOne:hover {
   background: transparent;
-  border: 2px solid yellow;
+  border: 2px solid #ffe400;
   color: white;
 }
 .head {
@@ -691,7 +691,7 @@ body {
 .overlay-text {
   position: absolute;
   top: -1px;
-  left: 115px;
+  /* left: 115px; */
   background: #ffe400;
   color: black;
   padding: 5px 10px;
@@ -779,21 +779,21 @@ position: absolute; */
 }
 
 .owl-carousel .owl-nav button.owl-next::before {
-  content: '\f061'; /*unicode for arrow-right*/
-  font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+  content: "\f061"; /*unicode for arrow-right*/
+  font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome */
   font-weight: 900; /* Font weight for the solid style (fas) */
   margin-right: 5px;
 }
 
 .owl-carousel .owl-nav button.owl-prev::before {
-  content: '\f060'; /*unicode for arrow-left*/
-  font-family: 'Font Awesome 5 Free'; /* Font family for Font Awesome */
+  content: "\f060"; /*unicode for arrow-left*/
+  font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome */
   font-weight: 900; /* Font weight for the solid style (fas) */
   margin-right: 5px;
 }
 
-.owl-carousel .owl-nav .owl-next [aria-label='Next'],
-.owl-carousel .owl-nav .owl-prev [aria-label='Previous'] {
+.owl-carousel .owl-nav .owl-next [aria-label="Next"],
+.owl-carousel .owl-nav .owl-prev [aria-label="Previous"] {
   visibility: hidden; /*The Span element*/
 }
 
@@ -831,7 +831,7 @@ position: absolute; */
   /* text-align: center; */
 }
 .demo-box {
-  background-color: yellow;
+  background-color: #ffe400;
   color: black;
   padding: 12px 28px;
   font-weight: bold;
@@ -893,7 +893,7 @@ position: absolute; */
 }
 
 .btnTwo {
-  border: 1px solid yellow;
+  border: 1px solid #ffe400;
   background-color: #ffe400;
   /* background: transparent; */
   padding: 15px 30px;
@@ -947,6 +947,14 @@ section four */
     /* gap: 186px; */
     background: #e8e8ea;
     padding: 50px;
+  }
+
+  .overlay-text {
+    left: 108px;
+  }
+
+  .btnTwo {
+    /* padding: 14px 58px; */
   }
 }
 
@@ -1096,7 +1104,7 @@ section four */
   color: black;
   padding: 15px 35px;
   font-size: 16px;
-  border: yellow;
+  border: #ffe400;
   cursor: pointer;
   border-radius: 30px;
   /* transition: all 0.3s ease; */
@@ -1107,9 +1115,9 @@ section four */
   color: black; /* Ensures text stays visible */
   border: 2px solid #ffe400; /* Yellow border */
 }
-.imgfix{
+/* .imgfix {
   padding-left: 30px;
-}
+} */
 /* Responsive Design */
 @media (max-width: 430px) {
   .sectionFour {
@@ -1126,9 +1134,10 @@ section four */
   .contact-section {
     display: flex;
     align-items: flex-start;
-    gap: 15px;
+    gap: 9px;
     background: #e8e8ea;
     padding: 20px;
+    flex-direction: column;
   }
 
   .text {
@@ -1191,7 +1200,7 @@ section four */
   .overlay-text {
     position: absolute;
     top: -1px;
-    left: 118px;
+    left: 102px;
   }
 
   .ContactIMG {
@@ -1207,7 +1216,7 @@ section four */
   .spnOne {
     font-size: 24px;
     font-weight: bold;
-    color: yellow;
+    color: #ffe400;
     display: block;
   }
 
@@ -1341,6 +1350,63 @@ section four */
 
   .divider {
     display: none;
+  }
+
+  .footer-content {
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 12px;
+  }
+
+  .featured-product-details {
+    align-items: center;
+  }
+
+  .p-box {
+    background-color: #e8e8ea;
+    padding: 18px;
+  }
+
+  @media (max-width: 380px) {
+    .carousel-controls {
+      /* position: absolute; */
+      bottom: 104px;
+      left: 68px;
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: -1px;
+      left: 92px;
+    }
+  }
+  .logo-text {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .contact-container {
+    margin: 0px;
+    padding-left: 4px;
+  }
+
+  .text {
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 28px;
+  }
+  .menu-wrapper {
+    right: 1px;
+  }
+  .overlay-text {
+    left: 69px;
+  }
+
+  .btnTwo {
+    padding: 12px 38px;
+    font-size: 9px;
+  }
+  .countdown {
+    gap: 12px;
   }
 }
 
@@ -1515,12 +1581,13 @@ section four */
 }
 
 .contact-label {
-  font-size: 14px;
+  font-size: 16px;
   color: #5a5a5a;
+  margin: 3px;
 }
 
 .contact-labelTwo {
-  font-size: 14px;
+  font-size: 16px;
   color: #5a5a5a;
 }
 .ctc-Two {
@@ -1539,6 +1606,7 @@ section four */
   font-size: 16px;
   font-weight: bold;
   color: #1a1a1a;
+  margin: 3px;
 }
 
 .contact-detail a {
