@@ -56,16 +56,13 @@ body {
   justify-content: center;
   width: 50px;
   height: 50px;
-  background: rgba(255, 255, 255, 0.2); /* Light square background */
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 0px;
 
   position: fixed;
-  /* top: 10px; */
   right: 45px;
   z-index: 1050;
-  /* background-color: #6E6D79; */
-  background-color: rgba(110, 109, 121, 0.8); /* Slightly transparent */
-  /* background: transparent; */
+  background-color: rgba(110, 109, 121, 0.8);
 }
 .menu-icon {
   display: flex;
@@ -90,22 +87,17 @@ body {
 .offcanvas {
   width: 250px;
   background: white;
-  /* position: fixed; */
 }
 .logo-text {
   font-size: 30px;
   font-weight: 700;
-  /* margin-right: 220px; */
-  /* font-weight: bold; */
 }
 .logo-container {
-  /* display: flex; */
   align-items: center;
   gap: 30px;
   padding-right: 20px;
 }
 .imgOne {
-  /* align-items: center; */
   padding-right: 0px;
 }
 
@@ -189,20 +181,6 @@ body {
 }
 
 .featured-product-card {
-  /* border-radius: 0px;
-  background-color: rgba(0, 0, 0, 0.9);
-
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("imgs/tractor-roller.avif");
-  
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  padding: 40px; */
 
   border-radius: 0px;
   background-color: rgba(0, 0, 0, 0.9);
@@ -264,8 +242,6 @@ body {
 .sectionTwo {
   margin-top: -160px;
   padding: 60px;
-  /* position: relative; */
-  /* margin-top: -160px; */
   background-color: #e8e8ea;
 }
 
@@ -317,11 +293,6 @@ body {
 }
 
 @media screen and (max-width: 1440px) {
-  /* .text-white {
-    font-size: 28px;
-    font-weight: 400px;
-  } */
-
   .menu-wrapper {
     position: fixed;
 
@@ -331,47 +302,31 @@ body {
     background-color: rgba(110, 109, 121, 0.8);
   }
   .overlay-text {
-    position: absolute;
-    top: -1px;
-    left: 115px;
-    background: #ffe400;
-    color: black;
-    padding: 5px 10px;
-
-    font-size: 14px;
+    left: 130px;
   }
-  /* .overlay-text {
-    position: absolute;
-    top: -1px;
-    left: 115px;
-    background: #ffe400;
-    color: black;
-    padding: 5px 10px;
 
-    font-size: 14px;
-  } */
   .price-box {
-    background-color: white; /* White background */
-    border: 1px solid #d3d3d3; /* Light grey border */
-    padding: 10px 20px; /* Adjust padding */
-    display: flex; /* Flex to align in one row */
-    justify-content: space-between; /* Space between elements */
-    align-items: center; /* Align text vertically */
+    background-color: white; 
+    border: 1px solid #d3d3d3; 
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
 
-    border-radius: 0px; /* Optional rounded corners */
+    border-radius: 0px; 
   }
   .p-box {
-    background-color: white; /* White background */
+    background-color: white; 
     margin-top: 5px;
-    border: 0.5px solid #d3d3d3; /* Light grey border */
-    color: grey; /* Grey text */
-    padding: 35px; /* Increased padding */
-    font-size: 18px; /* Slightly larger text */
+    border: 0.5px solid #d3d3d3; 
+    color: grey; 
+    padding: 35px;
+    font-size: 18px; 
     font-weight: bold;
-    display: inline-block; /* Prevent full-width stretching */
-    border-radius: 0px; /* Optional rounded corners */
-    width: fit-content; /* Adjusts to content width */
-    text-align: center; /* Centers text inside */
+    display: inline-block; 
+    border-radius: 0px; 
+    width: fit-content; 
+    text-align: center; 
   }
   .countdown {
     display: flex;
@@ -394,7 +349,6 @@ body {
     background: white;
     color: black;
     padding-right: 70px;
-    /* padding-left: 30px; */
     padding-bottom: 130px;
     padding-top: 130px;
     flex: 1;
@@ -412,7 +366,7 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-  /* Ensure everything stays in one row */
+
 
   .social-title {
     font-size: 9px;
@@ -421,14 +375,14 @@ body {
   .container-fluid {
     display: flex !important
 ;
-    /* align-items: center !important; */
+  
     justify-content: space-around !important;
     gap: 40px !important;
     flex-wrap: nowrap !important;
     padding: 12px 15px !important;
     position: relative !important;
   }
-  /* Reduce logo size */
+
   .logo-container img {
     width: 78px;
     height: 70px;
@@ -437,44 +391,41 @@ body {
   .partners-card {
     padding-left: 50px;
   }
-  /* Reduce logo text size */
+
   .logo-text {
     font-size: 22px;
     margin-left: -14px;
   }
   .navbar {
     top: 4%;
-    /* left: -38px; */
+
   }
 
   .contact-container {
     display: flex;
     align-items: center;
-    /* gap: 31px; */
+
   }
 
-  /* Reduce button size */
   .order-btn {
     padding: 13px 33px;
     font-size: 13px;
     border-radius: 25px;
   }
 
-  /* Reduce phone number size */
+
   .contact-container a {
     font-size: 14px;
   }
 
-  /* Keep all items (Logo, Order Button, Phone Number, Hamburger Menu) in one row */
   .navbar-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px; /* Reduce spacing */
+    gap: 10px; 
     width: 100%;
   }
 
-  /* Ensure Hamburger Menu is in the same row */
   .menu-wrapper {
     display: flex;
     align-items: center;
@@ -482,15 +433,12 @@ body {
     right: 12px;
   }
 
-  /* Make ONLY the Hamburger Menu Sticky */
+
   .menu-wrapper {
     position: fixed;
-    /* top: 10px; */
     right: 15px;
     z-index: 1050;
-    /* background-color: #6E6D79; */
-    background-color: rgba(110, 109, 121, 0.8); /* Slightly transparent */
-    /* background: transparent; */
+    background-color: rgba(110, 109, 121, 0.8);
   }
 
   /* Style Hamburger Menu */
@@ -525,12 +473,7 @@ body {
   /* sectiontwoo ends  */
   .sectionTwo {
     margin-top: -160px;
-    /* position: relative; */
-    /* padding: 0px 140px 40px 140px; */
-    /* border-radius: 0px; */
     z-index: 10;
-
-    /* background-color: #e8e8ea */
   }
   .container {
     display: flex;
@@ -565,27 +508,21 @@ body {
     margin: 5px 0px 22px 49px;
   }
   .sectionThree {
-    /* background-color: rgb(212, 214, 213);
-     */
     background-color: #e8e8ea;
   }
 
   .overlay-text {
-    position: absolute;
-    top: -1px;
-    left: 135px;
+    left: 155px;
   }
   .content-wrapper {
     margin-left: 130px;
-    /* max-width: 1200px; */
-    /* width: 100%; */
+  
   }
 
   .countdown {
     display: flex;
     gap: 16px;
-    /* text-align: center; */
-    /* justify-content: center;  */
+
   }
   .footer {
     padding: 32px 70px;
@@ -624,11 +561,7 @@ body {
   }
 }
 
-/* .discount-offer {
-    font-size: 29px !important;
-    padding-bottom: 40px;
-    font-weight: 700;
-  } */
+
 
 .card-img-top {
   height: 75px;
@@ -691,11 +624,12 @@ body {
 .overlay-text {
   position: absolute;
   top: -1px;
-  /* left: 115px; */
   background: #ffe400;
   color: black;
   padding: 5px 10px;
 
+    left: 155px;
+  
   font-size: 14px;
 }
 
@@ -704,8 +638,7 @@ body {
 /* secthree */
 
 .sectionThree {
-  /* background-color: rgb(212, 214, 213);
-   */
+
   background-color: #e8e8ea;
 }
 
@@ -754,8 +687,6 @@ i.fa-star {
   transition: all 0.2s ease;
 }
 
-/* Controls */
-/* button element */
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
   position: relative;
@@ -774,21 +705,19 @@ i.fa-star {
   width: 100%;
   height: 100%;
   color: orangered;
-  /* inset: 0;
-position: absolute; */
 }
 
 .owl-carousel .owl-nav button.owl-next::before {
-  content: "\f061"; /*unicode for arrow-right*/
-  font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome */
-  font-weight: 900; /* Font weight for the solid style (fas) */
+  content: "\f061"; 
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
   margin-right: 5px;
 }
 
 .owl-carousel .owl-nav button.owl-prev::before {
-  content: "\f060"; /*unicode for arrow-left*/
-  font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome */
-  font-weight: 900; /* Font weight for the solid style (fas) */
+  content: "\f060"; 
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
   margin-right: 5px;
 }
 
@@ -797,7 +726,7 @@ position: absolute; */
   visibility: hidden; /*The Span element*/
 }
 
-/* 3D Spinner */
+
 .owl-carousel .item {
   text-align: center;
   padding: 50px;
@@ -823,12 +752,11 @@ position: absolute; */
   line-height: normal;
 }
 .paraOne {
-  /* padding-bottom: 65px; */
+
   font-size: 22px;
   font-weight: 400;
-  /* width: 80%; */
   font-family: Montserrat, sans-serif;
-  /* text-align: center; */
+
 }
 .demo-box {
   background-color: #ffe400;
@@ -851,14 +779,6 @@ position: absolute; */
   object-fit: cover;
 }
 
-/* .price-box {
-  background-color: white; 
-  border: 1px solid #d3d3d3; 
- 
-  padding: 20px 40px; 
-  display: inline-block;
-  border-radius: 0px; 
-} */
 
 .example-text {
   font-size: 12px;
@@ -867,35 +787,25 @@ position: absolute; */
   font-size: 20px;
   font-weight: 700;
 }
-/* .price-label {
-  font-size: 12px; 
-  font-weight: normal;
-}
-
-.price-value {
-  font-size: 1vw;
-  font-weight: 800;
-} */
 
 .price-label {
-  font-size: 14px; /* Small font for "PRICE:" */
-  font-weight: normal; /* Light font */
+  font-size: 14px;
+  font-weight: normal; 
   color: grey;
 }
 
 .price-value {
   font-size: 12px;
-  font-weight: 800; /* Bold */
+  font-weight: 800; 
 }
 
 .spacer {
-  flex-grow: 1; /* Pushes "3,000 ₽ per meter" to the end */
+  flex-grow: 1;
 }
 
 .btnTwo {
   border: 1px solid #ffe400;
   background-color: #ffe400;
-  /* background: transparent; */
   padding: 15px 30px;
   transition: 0.3s;
   border-radius: 50px;
@@ -931,7 +841,7 @@ section four */
 .logos-container,
 .discount-box {
   flex: 1;
-  /* text-align: center;  */
+  
 }
 
 /* Responsive Design */
@@ -944,18 +854,15 @@ section four */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* gap: 186px; */
     background: #e8e8ea;
     padding: 50px;
   }
 
   .overlay-text {
-    left: 108px;
+    left: 133px;
   }
 
-  .btnTwo {
-    /* padding: 14px 58px; */
-  }
+
 }
 
 .partners-slider-section {
@@ -976,7 +883,6 @@ section four */
   background: white;
   color: black;
   padding-right: 70px;
-  /* padding-left: 30px; */
   padding-bottom: 130px;
   padding-top: 130px;
   flex: 1;
@@ -984,10 +890,6 @@ section four */
 .headthree {
   font-size: 38px;
   line-height: normal;
-  /* margin-top: 0px; */
-  /* margin-right: 0px; */
-  /* margin-bottom: 0px; */
-  /* margin-left: 0px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1038,32 +940,13 @@ section four */
 /* Right Section: Discount & Timer */
 .discount-box {
   flex: 1;
-  /* background-color: yellow; */
-  /* padding: 30px; */
   border-radius: 10px;
-  /* text-align: center; */
 }
 
 .discount-offer {
   font-size: 42px;
   padding-bottom: 40px;
   font-weight: 700;
-
-  /* display: flex
-;
-    vertical-align: top;
-    position: relative;
-    font-size: 3vw;
-    padding-bottom: 60px;
-    font-weight: 700;
-    color: rgba(var(--color-id9l6bzwz), 1);
-    padding-left: 0px;
-    padding-top: 0px;
-    background-image: none;
-    background-repeat: repeat;
-    background-position: 0 0;
-    background-size: auto;
-    background-attachment: scroll */
 }
 
 .promo-text {
@@ -1095,7 +978,7 @@ section four */
 
 .time-box {
   display: flex;
-  flex-direction: column; /* Aligns number and label vertically */
+  flex-direction: column; 
   align-items: center;
 }
 
@@ -1116,10 +999,7 @@ section four */
   color: black; /* Ensures text stays visible */
   border: 2px solid #ffe400; /* Yellow border */
 }
-/* .imgfix {
-  padding-left: 30px;
-} */
-/* Responsive Design */
+
 @media (max-width: 430px) {
   .sectionFour {
     padding: 50px 20px;
@@ -1149,23 +1029,21 @@ section four */
 
   .heroHead {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align text to start */
+    flex-direction: column; 
+    align-items: flex-start; 
     font-size: 15px;
   }
 
   .carousel-controls {
-    /* position: absolute; */
     bottom: 104px;
     left: 6px;
-    /* gap: 50px; */
     bottom: 97px;
     right: 300px;
   }
   .sectionTwo {
     margin-top: 10px;
     padding: 22px;
-    /* margin-bottom: 20px; */
+
   }
   .row {
     display: flex;
@@ -1198,19 +1076,13 @@ section four */
     margin-top: 30px;
   }
 
-  .overlay-text {
-    position: absolute;
-    top: -1px;
-    left: 102px;
-  }
-
   .ContactIMG {
     display: none;
   }
   .spn {
     font-size: 16px;
     text-decoration: line-through;
-    margin: 5px 0; /* Add spacing between price elements */
+    margin: 5px 0; 
     display: block;
   }
 
@@ -1235,7 +1107,7 @@ section four */
   .container-fluid {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align everything to the start (left) */
+    align-items: flex-start; 
     gap: 10px;
     padding-left: 15px;
   }
@@ -1346,7 +1218,7 @@ section four */
 
   .slider-group {
     grid-template-columns: repeat(1, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
+   
   }
 
   .divider {
@@ -1370,15 +1242,8 @@ section four */
 
   @media (max-width: 380px) {
     .carousel-controls {
-      /* position: absolute; */
       bottom: 104px;
       left: 68px;
-    }
-
-    .overlay-text {
-      position: absolute;
-      top: -1px;
-      left: 92px;
     }
   }
   .logo-text {
@@ -1389,7 +1254,11 @@ section four */
     margin: 0px;
     padding-left: 4px;
   }
-
+  .overlay-text {
+  
+      left: 155px;
+    
+  }
   .text {
     font-size: 22px;
     font-weight: 700;
@@ -1397,9 +1266,6 @@ section four */
   }
   .menu-wrapper {
     right: 1px;
-  }
-  .overlay-text {
-    left: 69px;
   }
 
   .btnTwo {
@@ -1425,20 +1291,13 @@ section four */
   width: 100%;
 }
 
-.cnt-down {
-  /* padding: 10px 20px 20px 0px ; */
-}
 .time-labels {
   margin: 20px;
 }
 
-/* sectionfive */
-
-/* Partners Card */
-
 .P-card {
-  text-align: left; /* Ensures text stays aligned to the left */
-  max-width: 700px; /* Limits width for better readability */
+  text-align: left; 
+  max-width: 700px; 
 }
 .partners-title {
   font-size: 36px;
@@ -1446,10 +1305,6 @@ section four */
   padding: 0px 0px 20px;
 }
 
-/* .partners-subtitle {
-  font-size: 22px;
-  padding: 0px 0px 60px;
-} */
 
 .partners-description {
   font-size: 14px;
@@ -1459,13 +1314,10 @@ section four */
 
 /* Slider Container */
 .slider-container {
-  /* width: 60px; */
   position: relative;
   overflow: hidden;
-  /* background: #d3d3d3; */
   padding: 10px;
   border-radius: 0px;
-  /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
   flex: 1;
 }
 
@@ -1500,6 +1352,7 @@ section four */
   gap: 20px;
 }
 
+
 .toggle-btn {
   background-color: #ffe400;
   color: black;
@@ -1528,14 +1381,13 @@ section four */
 }
 
 .social-media {
-  /* display: flex;git add .  */
+
   flex-direction: column;
   align-items: center;
-  /* flex: 1; */
+
 }
 
 .social-title {
-  /* font-size: 12px; */
   text-transform: uppercase;
   color: #5a5a5a;
   margin-bottom: 10px;
@@ -1548,18 +1400,18 @@ section four */
 }
 
 .icon {
-  width: 40px; /* Set fixed size for circles */
+  width: 40px; 
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%; /* Makes it a circle */
-  background-color: white; /* Light grey background */
+  border-radius: 50%; 
+  background-color: white; 
 }
 
 .icon i {
-  font-size: 18px; /* Adjust icon size */
-  color: #cda999; /* Icon color */
+  font-size: 18px; 
+  color: #cda999; 
 }
 
 .divider {
@@ -1611,14 +1463,14 @@ section four */
 }
 
 .contact-detail a {
-  /* text-decoration: none; */
+ 
   color: #1a1a1a;
 }
 
 /* footer  */
 .footer {
   display: flex;
-  justify-content: space-between; /* Space out elements */
+  justify-content: space-between; 
   align-items: center;
   background: white;
   /* padding: 32px 70px; */
