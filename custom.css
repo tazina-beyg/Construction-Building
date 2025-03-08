@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ body {
 
 .sectionOne {
   position: relative;
-  background: url('/imgs/Background img.webp') no-repeat center center/cover;
+  background: url("/imgs/Background img.webp") no-repeat center center/cover;
 
   min-height: 100vh;
   display: flex;
@@ -85,7 +85,7 @@ body {
   width: 25px;
   align-self: center;
 }
-.offcanvas {
+.offnvas {
   width: 250px;
   background: white;
 }
@@ -189,7 +189,7 @@ body {
   justify-content: space-between; /* Ensures content spacing */
   min-height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('imgs/tractor-roller.avif');
+    url("imgs/tractor-roller.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -694,21 +694,21 @@ i.fa-star {
 }
 
 .owl-carousel .owl-nav button.owl-next::before {
-  content: '\f061';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f061";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 5px;
 }
 
 .owl-carousel .owl-nav button.owl-prev::before {
-  content: '\f060';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f060";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   margin-right: 5px;
 }
 
-.owl-carousel .owl-nav .owl-next [aria-label='Next'],
-.owl-carousel .owl-nav .owl-prev [aria-label='Previous'] {
+.owl-carousel .owl-nav .owl-next [aria-label="Next"],
+.owl-carousel .owl-nav .owl-prev [aria-label="Previous"] {
   visibility: hidden; /*The Span element*/
 }
 
@@ -1155,7 +1155,7 @@ section four */
     font-weight: bold;
     margin: 14px 0px 5px 0px;
   }
- 
+
   .discount-offer {
     font-size: 20px;
     padding-bottom: 0px;
@@ -1234,6 +1234,9 @@ section four */
     background-color: #e8e8ea;
     padding: 18px;
   }
+  .carousel-item {
+    height: 100vh;
+  }
 
   @media (max-width: 380px) {
     .carousel-controls {
@@ -1244,6 +1247,9 @@ section four */
   .logo-text {
     font-size: 18px;
     margin-left: 10px;
+  }
+  .carousel-item {
+    height: 100vh;
   }
   .contact-container {
     margin: 0px;
@@ -1431,6 +1437,9 @@ flex-direction: column;
     margin-left: 112px;
   }
 
+  .carousel-item {
+    height: 100vh;
+  }
   .circle {
     font-size: 22px;
   }
