@@ -118,8 +118,16 @@ body {
   font-weight: 400;
 }
 .carousel-item {
-  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Ensures it stays consistent */
 }
+
+/* njsdunh
+ */
+
+/* dd */
 .carousel-caption {
   position: relative;
   top: 34%;
@@ -1548,7 +1556,7 @@ flex-direction: column;
     font-size: 40px;
   }
   .sectionTwo {
-    /* margin-top: -160px; */
+    margin-top: -160px;
     padding: 35px;
   }
 
