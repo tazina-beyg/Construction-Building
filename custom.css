@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ body {
 
 .sectionOne {
   position: relative;
-  background: url("/imgs/Background img.webp") no-repeat center center/cover;
+  background: url('/imgs/Background img.webp') no-repeat center center/cover;
 
   min-height: 100vh;
   display: flex;
@@ -189,7 +189,7 @@ body {
   justify-content: space-between; /* Ensures content spacing */
   min-height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("imgs/tractor-roller.avif");
+    url('imgs/tractor-roller.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -694,21 +694,21 @@ i.fa-star {
 }
 
 .owl-carousel .owl-nav button.owl-next::before {
-  content: "\f061";
-  font-family: "Font Awesome 5 Free";
+  content: '\f061';
+  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   margin-right: 5px;
 }
 
 .owl-carousel .owl-nav button.owl-prev::before {
-  content: "\f060";
-  font-family: "Font Awesome 5 Free";
+  content: '\f060';
+  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   margin-right: 5px;
 }
 
-.owl-carousel .owl-nav .owl-next [aria-label="Next"],
-.owl-carousel .owl-nav .owl-prev [aria-label="Previous"] {
+.owl-carousel .owl-nav .owl-next [aria-label='Next'],
+.owl-carousel .owl-nav .owl-prev [aria-label='Previous'] {
   visibility: hidden; /*The Span element*/
 }
 
@@ -1069,7 +1069,7 @@ section four */
 
   .featured-product-card {
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 7px;
   }
 
   .ContactIMG {
@@ -1489,6 +1489,7 @@ flex-direction: column;
 
   .row {
     flex-direction: column-reverse; /* Moves the featured card below */
+    gap: 1rem;
   }
 
   .col-lg-8 {
@@ -1511,17 +1512,17 @@ flex-direction: column;
     align-items: stretch; /* Ensures uniform height */
     margin-bottom: 40px;
   }
-  .btnTwo{
+  .btnTwo {
     font-size: 13px;
   }
 
   .card {
-    width: 100% ;
-    min-width: 320px ; /* Prevents excessive shrinking */
-    max-width: 100% ;
+    width: 100%;
+    min-width: 320px; /* Prevents excessive shrinking */
+    max-width: 100%;
     flex-grow: 1;
   }
-  .social-media{
+  .social-media {
     display: none;
   }
 
@@ -1540,74 +1541,57 @@ flex-direction: column;
   .sectionTwo {
     /* margin-top: -160px; */
     padding: 35px;
-}
+  }
 
-.text-whiteTwo {
-  font-size: 20px;}
+  .text-whiteTwo {
+    font-size: 20px;
+  }
 
   .txt-head {
     margin-top: 145px;
   }
 
-
   .partners-title {
     font-size: 38px;
+  }
+  .partners-slider-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 30px;
+  }
 
+  .partners-card {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    flex: unset;
+    width: 100%;
+    background-color: #e8e8ea;
+  }
 
-}
-.partners-slider-section {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 30px;
-}
+  .P-card {
+    max-width: 100%;
+  }
 
-.partners-card {
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 0;
-  flex: unset;
-  width: 100%;
-  background-color: #e8e8ea;
-   
-}
+  .contact-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    background: #e8e8ea;
+    padding: 20px;
+    flex-direction: column;
+  }
 
-.P-card {
-  max-width: 100%;
-}
-
-.contact-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 9px;
-  background: #e8e8ea;
-  padding: 20px;
-  flex-direction: column;
-}
-
-.footer {
-  padding: 32px 70px;}
-
+  .footer {
+    padding: 32px 70px;
+  }
 
   .example-text {
-      font-size: 11px;
+    font-size: 11px;
   }
-  
-  
-
-
-
 }
 /* sectionfor responsive ends */
-
-
-
-
-
-
-
-
-
 
 .social-media {
   flex-direction: column;
@@ -1812,4 +1796,20 @@ flex-direction: column;
   background-color: #007bff;
   color: white;
   font-size: 28px;
+}
+
+.custom-col {
+  width: 100%; /* Default: One column per row (mobile-first) */
+}
+.custom-row {
+  display: grid;
+  grid-template-columns: 1fr; /* Default: One column for mobile & tablet */
+  gap: 1rem; /* 16px gap */
+}
+
+/* For screens >= 1024px (desktop), switch to two columns */
+@media (min-width: 760px) {
+  .custom-row {
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  }
 }
