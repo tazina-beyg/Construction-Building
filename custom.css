@@ -57,12 +57,13 @@ body {
   width: 50px;
   height: 50px;
   background: rgba(255, 255, 255, 0.2);
+
   border-radius: 0px;
 
   position: fixed;
   right: 45px;
   z-index: 1050;
-  background-color: rgba(110, 109, 121, 0.8);
+  background-color: #1d1e30;
 }
 .menu-icon {
   display: flex;
@@ -298,7 +299,7 @@ body {
     right: 55px;
     z-index: 1050;
 
-    background-color: rgba(110, 109, 121, 0.8);
+    /* background-color: rgba(110, 109, 121, 0.8); */
   }
 
   .price-box {
@@ -428,7 +429,7 @@ body {
     position: fixed;
     right: 15px;
     z-index: 1050;
-    background-color: rgba(110, 109, 121, 0.8);
+    /* background-color: rgba(110, 109, 121, 0.8); */
   }
 
   /* Style Hamburger Menu */
@@ -939,7 +940,7 @@ section four */
 }
 
 .circle {
-  background-color: white;
+  background-color: #f8f8f9;
   color: black;
   font-size: 26px;
   font-weight: bold;
@@ -950,7 +951,7 @@ section four */
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); */
 }
 
 .time-labels {
@@ -1247,6 +1248,7 @@ section four */
   .contact-container {
     margin: 0px;
     padding-left: 4px;
+    align-items: flex-start;
   }
   /* .overlay-text {
     left: 155px;
@@ -1369,6 +1371,243 @@ section four */
     padding: 0px 0px 50px 0px;
   }
 }
+
+/* @media screen and (max-width: 950px) {
+} */
+@media screen and (max-width: 768px) {
+  /* .content-wrapper {
+    display: flex
+    
+;
+flex-direction: column;
+    gap: 69px} */
+
+  @media (max-width: 768px) {
+    .sectionFour {
+      padding: 50px 20px;
+    }
+
+    .content-wrapper {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 40px;
+      margin-left: 0;
+    }
+
+    .logos {
+      /* flex-direction: column; */
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .logo-box {
+    text-align: center;
+  }
+
+  .discount-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .countdown {
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+  }
+
+  .time-box {
+    text-align: center;
+  }
+  .headthree {
+    font-size: 29px;
+  }
+
+  .discount-text {
+    font-size: 29px;
+    font-weight: bold;
+    margin-left: 112px;
+  }
+
+  .circle {
+    font-size: 22px;
+  }
+  .discount-offer {
+    font-size: 42px;
+    padding-bottom: 0px;
+  }
+  .time-label {
+    margin-bottom: 40px;
+  }
+
+  .container-fluid {
+    display: flex;
+    align-items: center;
+
+    flex-wrap: nowrap;
+    gap: 0;
+    padding: 10px 15px;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+    margin-right: 0px;
+  }
+
+  .order-btn {
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .text-white {
+    font-size: 16px;
+    /* padding-top: 4px; */
+  }
+  .ContactIMG {
+    display: none;
+  }
+  .navbar {
+    top: 2%;
+  }
+
+  .menu-wrapper {
+    right: 1px;
+  }
+
+  .row {
+    flex-direction: column-reverse; /* Moves the featured card below */
+  }
+
+  .col-lg-8 {
+    width: 100%;
+  }
+
+  .col-lg-4 {
+    width: 100%;
+    margin-bottom: 20px; /* Adds spacing between the cards */
+  }
+
+  .row-cols-sm-2 {
+    display: grid;
+    grid-template-columns: repeat(
+      2,
+      minmax(300px, 1fr)
+    ); /* Increased min width */
+    gap: 2px;
+    justify-items: center; /* Ensures cards take full width */
+    align-items: stretch; /* Ensures uniform height */
+    margin-bottom: 40px;
+  }
+  .btnTwo{
+    font-size: 13px;
+  }
+
+  .card {
+    width: 100% ;
+    min-width: 320px ; /* Prevents excessive shrinking */
+    max-width: 100% ;
+    flex-grow: 1;
+  }
+  .social-media{
+    display: none;
+  }
+
+  .col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .spnOne {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 40px;
+  }
+  .sectionTwo {
+    /* margin-top: -160px; */
+    padding: 35px;
+}
+
+.text-whiteTwo {
+  font-size: 20px;}
+
+  .txt-head {
+    margin-top: 145px;
+  }
+
+
+  .partners-title {
+    font-size: 38px;
+
+
+}
+.partners-slider-section {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 30px;
+}
+
+.partners-card {
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  flex: unset;
+  width: 100%;
+  background-color: #e8e8ea;
+   
+}
+
+.P-card {
+  max-width: 100%;
+}
+
+.contact-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  background: #e8e8ea;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.footer {
+  padding: 32px 70px;}
+
+
+  .example-text {
+      font-size: 11px;
+  }
+  
+  
+
+
+
+}
+/* sectionfor responsive ends */
+
+
+
+
+
+
+
+
+
 
 .social-media {
   flex-direction: column;
