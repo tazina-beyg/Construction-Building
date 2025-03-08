@@ -376,9 +376,9 @@
 
           <!-- 4 Product Cards (2x2 Grid) -->
           <div class="col-lg-8 d-flex flex-column">
-            <div class="row row-cols-1 row-cols-sm-2 g-3">
+            <div class="custom-row">
               <!-- Adjusts for responsiveness -->
-              <div class="col">
+              <div class="custom-col col">
                 <div class="card">
                   <img
                     src="imgs/tech-support.jpg"
@@ -393,7 +393,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="custom-col col">
                 <div class="card">
                   <img
                     src="imgs/Sylvan-icon-trophy.png"
@@ -408,7 +408,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="custom-col col">
                 <div class="card">
                   <img
                     src="imgs/vecteezy_research-vector-icon_14654373.jpg"
@@ -423,7 +423,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="custom-col col">
                 <div class="card">
                   <img
                     src="imgs/Sylvan-icon-web-increase-monoline.png"
@@ -938,7 +938,7 @@
 
     <!-- Owl Carousel Initialization -->
     <script>
-      $(".owl-carousel").owlCarousel({
+      $('.owl-carousel').owlCarousel({
         loop: true,
         center: true,
         items: 3,
@@ -973,7 +973,7 @@
       }
 
       function updateSlider() {
-        const wrapper = document.querySelector(".slider-wrapper");
+        const wrapper = document.querySelector('.slider-wrapper');
         wrapper.style.transform = `translateX(-${currentIndex * 100}%)`;
       }
     </script>
